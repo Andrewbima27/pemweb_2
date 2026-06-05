@@ -3,7 +3,7 @@
   <style>
     body {
       background: #f0f0f0;
-      padding: 40px;
+      padding: 30px;
     }
     button {
       padding: 10px 20px;
@@ -66,8 +66,8 @@
             const lon = pos.coords.longitude;
 
             lokasi.innerHTML = `Latitude: ${lat}<br>Longitude: ${lon}`;
-            map.innerHTML = `<iframe width="50%" height="400" 
-          src="https://maps.google.com/maps?q=${lat},${lon}&z=15&output=embed" 
+            map.innerHTML = `<iframe width="50%" height="400"
+          src="https://maps.google.com/maps?q=${lat},${lon}&z=15&output=embed"
           frameborder="0" allowfullscreen></iframe>`;
           },
           () => {
